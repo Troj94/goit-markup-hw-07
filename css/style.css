@@ -543,7 +543,7 @@ body {
 .address-block__list {
     width: 231px;
 
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .address-block__item {
@@ -706,14 +706,13 @@ body {
 
 .modal-window__title {
     margin: 0;
-
+    padding-bottom: 12px;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.03em;
-
 }
 
 .form--modal-window {
@@ -723,7 +722,6 @@ body {
 
 .form__block {
     margin-bottom: 10px;
-
     position: relative;
 }
 
@@ -732,6 +730,7 @@ body {
 }
 
 .form__label {
+    display: inline-block;
     font-size: 12px;
     color: var(--modal-text);
     fill: var(--common-text);
