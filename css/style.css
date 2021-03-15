@@ -509,7 +509,6 @@ body {
     padding: 0 15px;
     margin: 0 auto;
     display: flex;
-    height: 132px;
     align-items: baseline;
 }
 
@@ -537,12 +536,13 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+
+    margin: 0;
 }
 
 .address-block__list {
     width: 231px;
 
-    margin-top: 20px;
     margin-bottom: 0;
 }
 
@@ -606,6 +606,7 @@ body {
     background-color: inherit;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
+    color: var(--white-text);
 }
 
 .button--footer {
@@ -651,7 +652,7 @@ body {
 .modal-window {
     position: absolute;
 
-    padding: 12px 39px 0 41px;
+    padding: 40px;
 
     width: 528px;
     height: 581px;
@@ -677,7 +678,7 @@ body {
     width: 30px;
     height: 30px;
 
-    margin: -4px 8px 0 0;
+    margin: -32px 8px 0 0;
     padding: 0;
     cursor: pointer;
     color: #000;
@@ -704,11 +705,15 @@ body {
 }
 
 .modal-window__title {
-    padding: 28px 0 12px 0;
     margin: 0;
+
+    font-style: normal;
+    font-weight: bold;
     font-size: 20px;
+    line-height: 23px;
     text-align: center;
     letter-spacing: 0.03em;
+
 }
 
 .form--modal-window {
@@ -774,8 +779,7 @@ body {
     display: block;
     height: 120px;
 
-    padding-top: 12px;
-    padding-left: 18px;
+    padding: 12px 18px;
 }
 
 .form__label--checkbox {
@@ -820,10 +824,6 @@ body {
 
 .form__input--checkbox:focus {
     outline: none;
-}
-
-.form__policy-text {
-    margin-right: 4px;
 }
 
 .form__policy-link {
