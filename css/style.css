@@ -1,4 +1,4 @@
-body {
+.body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -442,7 +442,7 @@ body {
 
 /* Постоянные клиенты */
 
-.clients__list {
+.clients {
     display: flex;
     margin: 0;
 }

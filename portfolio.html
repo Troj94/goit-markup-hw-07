@@ -4,20 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
-    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/variables.css" />
   </head>
 
-  <body>
+  <body class="body">
     <!--Шапка-->
     <header class="header">
-      <div class="header__container">
+      <div class="container--header">
         <a class="logo" href="./index.html"
           ><span class="logo__text">Web</span>Studio</a
         >
@@ -38,7 +36,7 @@
           </ul>
         </nav>
 
-        <ul class="contacts__list">
+        <ul class="contacts">
           <li class="contacts__item">
             <a class="contacts__link" href="mailto:info@devstudio.com"
               ><svg class="contacts__icon" width="16px" height="12px">
@@ -64,7 +62,7 @@
       <section class="section">
         <div class="container--products">
           <h1 hidden>Проекты</h1>
-          <ul class="products-filter__list">
+          <ul class="products-filter">
             <li class="products-filter__item">
               <button
                 class="products-filter__button products-filter__button--all"
@@ -309,13 +307,13 @@
 
     <!--Подвал-->
     <footer class="footer">
-      <div class="footer-container">
+      <div class="container--footer">
         <div class="footer__logo-block">
           <a class="footer__logo" href="./index.html"
             ><span class="logo__text">Web</span>Studio</a
           >
           <address class="address-block--footer">
-            <ul class="address-block__list">
+            <ul class="address-block">
               <li class="address-block__item">
                 г. Киев, пр-т Леси Украинки, 26
               </li>
@@ -332,9 +330,9 @@
             </ul>
           </address>
         </div>
-        <div class="social-block--footer">
+        <div class="social-block">
           <h3 class="social-block__title">присоединяйтесь</h3>
-          <ul class="social__list">
+          <ul class="social">
             <li class="social__item">
               <a class="social__link social__link--footer" href="#">
                 <svg class="social__icon social__icon--footer">
@@ -368,13 +366,13 @@
 
         <!--Форма-->
 
-        <form class="form--footer" action="#">
+        <form class="subscribe-form" action="#">
           <label class="social-block__title" for="email"
             >подпишитесь на рассылку
           </label>
-          <div class="form__input-block">
+          <div class="subscribe-form__input-block">
             <input
-              class="form__input-area"
+              class="subscribe-form__input-area"
               type="email"
               name="email"
               id="email"
