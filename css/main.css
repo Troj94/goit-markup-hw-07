@@ -1,8 +1,8 @@
 :root {
   --common-text: rgba(33, 33, 33, 1);
   --hover-text: rgba(33, 150, 243, 1);
-  --white-text: rgba(255, 255, 255, 1);
-  --grey-text: rgba(117, 117, 117, 1);
+  --tertiary-text: rgba(255, 255, 255, 1);
+  --secondary-text: rgba(117, 117, 117, 1);
   --address-text: rgba(255, 255, 255, 0.6);
   --bcg: rgba(245, 244, 250, 1);
   --clients-border: rgba(175, 177, 184, 1);
@@ -450,7 +450,7 @@ summary {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--grey-text);
+  color: var(--secondary-text);
   font-size: 14px;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -488,7 +488,7 @@ summary {
 
 .section-hero__title {
   margin: 0 auto 30px auto;
-  color: var(--white-text);
+  color: var(--tertiary-text);
   text-align: center;
   font-weight: 900;
   font-size: 44px;
@@ -509,7 +509,7 @@ summary {
   border-radius: 4px;
   border: none;
   background-color: var(--hover-text);
-  color: var(--white-text);
+  color: var(--tertiary-text);
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -564,7 +564,7 @@ summary {
   padding: 0;
   cursor: pointer;
   color: #000;
-  background-color: var(--white-text);
+  background-color: var(--tertiary-text);
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -614,7 +614,7 @@ summary {
 .advantages__text {
   margin-top: 10px;
   margin-bottom: 0;
-  color: var(--grey-text);
+  color: var(--secondary-text);
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -694,10 +694,12 @@ summary {
 
 .gallery__image {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .gallery__text {
-  color: var(--white-text);
+  color: var(--tertiary-text);
 }
 
 .thumb {
@@ -745,7 +747,7 @@ summary {
 }
 
 .team__item {
-  background-color: var(--white-text);
+  background-color: var(--tertiary-text);
   margin-right: 30px;
   width: 270px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -759,6 +761,8 @@ summary {
 
 .team__image {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .text-block {
@@ -776,7 +780,7 @@ summary {
 
 .text-block__proffesion {
   margin: 0 0 16px 0;
-  color: var(--grey-text);
+  color: var(--secondary-text);
   text-align: center;
   font-weight: 400;
   font-size: 16px;
@@ -802,7 +806,7 @@ summary {
 
 .text-block__info {
   margin: 0 auto;
-  color: var(--grey-text);
+  color: var(--secondary-text);
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -849,7 +853,7 @@ summary {
           align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--white-text);
+  background-color: var(--tertiary-text);
   border-radius: 50%;
   fill: var(--socials-color);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -858,7 +862,7 @@ summary {
 
 .social__link:hover, .social__link:focus {
   background-color: var(--hover-text);
-  fill: var(--white-text);
+  fill: var(--tertiary-text);
 }
 
 .social__link--footer {
@@ -880,7 +884,7 @@ summary {
 }
 
 .social__icon--footer {
-  fill: var(--white-text);
+  fill: var(--tertiary-text);
 }
 
 .clients {
@@ -955,7 +959,7 @@ summary {
   font-family: 'Raleway', sans-serif;
   display: block;
   margin-bottom: 20px;
-  color: var(--white-text);
+  color: var(--tertiary-text);
   text-decoration: none;
   font-weight: bold;
   font-size: 26px;
@@ -964,7 +968,7 @@ summary {
 
 .address-block--footer {
   display: block;
-  color: var(--white-text);
+  color: var(--tertiary-text);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1003,7 +1007,7 @@ summary {
   display: inline-block;
   text-transform: uppercase;
   font-size: 14px;
-  color: var(--white-text);
+  color: var(--tertiary-text);
   margin: 0 0 20px 0;
   font-weight: 700;
 }
@@ -1027,7 +1031,7 @@ summary {
   background-color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  color: var(--white-text);
+  color: var(--tertiary-text);
 }
 
 .backdrop {
@@ -1065,8 +1069,7 @@ summary {
 }
 
 .modal-window__title {
-  margin: 0;
-  padding-bottom: 12px;
+  margin: 0 0 12px 0;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -1108,7 +1111,7 @@ summary {
 }
 
 .feedback__input:hover, .feedback__input:focus {
-  background-color: var(--white-text);
+  background-color: var(--tertiary-text);
   cursor: pointer;
   border-color: var(--hover-text);
   border-radius: 4px;
@@ -1153,7 +1156,7 @@ summary {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--grey-text);
+  color: var(--secondary-text);
 }
 
 .feedback__input--checkbox {
@@ -1225,11 +1228,11 @@ summary {
 
 .products-filter__button--all {
   background-color: var(--hover-text);
-  color: var(--white-text);
+  color: var(--tertiary-text);
 }
 
 .products-filter__button:hover, .products-filter__button:focus {
-  color: var(--white-text);
+  color: var(--tertiary-text);
   background-color: var(--hover-text);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -1257,6 +1260,7 @@ summary {
 
 .products__image {
   display: block;
+  height: auto;
 }
 
 .products__item {
@@ -1267,6 +1271,10 @@ summary {
   margin-right: 26px;
   position: relative;
   overflow: hidden;
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .products__item:nth-child(n+7) {
@@ -1285,7 +1293,7 @@ summary {
 
 .overlay {
   background-color: rgba(33, 150, 243, 0.9);
-  color: var(--white-text);
+  color: var(--tertiary-text);
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;

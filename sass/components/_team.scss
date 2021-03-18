@@ -22,7 +22,7 @@
     }
 
     &__item {
-        background-color: var(--white-text);
+        background-color: var(--tertiary-text);
         margin-right: 30px;
         width: 270px;
 
@@ -38,6 +38,8 @@
 
     &__image {
         display: block;
+        max-width: 100%;
+        height: auto;
     }
 }
 
@@ -58,7 +60,7 @@
     &__proffesion {
         margin: 0 0 16px 0;
 
-        color: var(--grey-text);
+        color: var(--secondary-text);
 
         text-align: center;
 
@@ -88,7 +90,7 @@
     &__info {
         margin: 0 auto;
 
-        color: var(--grey-text);
+        color: var(--secondary-text);
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.03em;

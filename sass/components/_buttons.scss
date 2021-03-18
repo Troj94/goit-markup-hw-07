@@ -9,7 +9,7 @@
     border: none;
 
     background-color: var(--hover-text);
-    color: var(--white-text);
+    color: var(--tertiary-text);
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -58,7 +58,7 @@
         padding: 0;
         cursor: pointer;
         color: #000;
-        background-color: var(--white-text);
+        background-color: var(--tertiary-text);
 
         border-radius: 50%;
         border: 1px solid rgba(0, 0, 0, 0.1);

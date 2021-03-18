@@ -29,12 +29,12 @@
 
     &--all {
         background-color: var(--hover-text);
-        color: var(--white-text);
+        color: var(--tertiary-text);
     }
 
     &:hover,
     &:focus {
-        color: var(--white-text);
+        color: var(--tertiary-text);
         background-color: var(--hover-text);
 
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),

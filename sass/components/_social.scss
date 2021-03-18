@@ -23,7 +23,7 @@
         width: 44px;
         height: 44px;
 
-        background-color: var(--white-text);
+        background-color: var(--tertiary-text);
         border-radius: 50%;
         fill: var(--socials-color);
 
@@ -34,7 +34,7 @@
     &__link:hover,
     &__link:focus {
         background-color: var(--hover-text);
-        fill: var(--white-text);
+        fill: var(--tertiary-text);
     }
 
     &__link--footer {
@@ -51,6 +51,6 @@
     }
 
     &__icon--footer {
-        fill: var(--white-text);
+        fill: var(--tertiary-text);
     }
 }
